@@ -1,0 +1,13 @@
+venv/
+__pycache__/
+.pytest_cache/
+.streamlit/
+.cache/
+
+.env
+data/chroma/
+models/
+
+*.log
+*.tmp
+*.sqlite3

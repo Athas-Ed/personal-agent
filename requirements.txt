@@ -1,0 +1,22 @@
+streamlit>=1.41
+python-dotenv>=1.0.1
+
+# LangChain (core + OpenAI-compatible client)
+langchain>=0.3.0
+langchain-openai>=0.2.0
+langchain-community>=0.3.0
+langchain-text-splitters>=0.3.0
+
+# Vector store
+chromadb>=0.5.0
+langchain-chroma>=0.1.0
+
+# Document loading / splitting
+pypdf>=5.0.0
+
+# Local embeddings (optional)
+sentence-transformers>=3.0.0
+
+# MCP (Model Context Protocol)
+mcp
+langchain-mcp-adapters
